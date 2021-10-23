@@ -1,29 +1,14 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
-const { login } = require('../pageobjects/login.page');
 const loginPage = require('../pageobjects/login.page');
-// Given the user is on login page
-// Undefined.Implement with the following snippet:
-
-
+const shopPage = require('../pageobjects/shop.page');
+const ShopPage = require('../pageobjects/shop.page');
 
 Given('the user is on login page', async() => { // Write code here that turns the phrase above into concrete actions
     await loginPage.open();
+    browser.maximizeWindow();
     // expect(browser).toHaveTitle('The Internet');
 });
 
-// ?
-// When the user enters username as "tomsmith"
-// and password as "SuperSecretPassword!"
-// Undefined.Implement with the following snippet:
-
-When('the user enters username as {string} and password as {string}', async(username, password) => { // Write code here that turns the phrase above into concrete actions
-    loginPage.inputUsername.setValue(username);
-    loginPage.inputPassword.setValue(password);
-});
-
-When('I wait for {string} seconds', function(time) {
-
-});
 
 When('User clicks on search button', async() => {
     // Write code here that turns the phrase above into concrete actions
@@ -35,10 +20,9 @@ When('User clicks on search button', async() => {
 });
 
 When('User Search for {string} in the COMICS section', async(avenger) => {
-    // Write code here that turns the phrase above into concrete actions
-    //loginPage.search(avenger);
-    await expect(loginPage.clickComics).toExist();
-    await expect(loginPage.clickComics).toHaveTextContaining('COMICS');
+    // Write code here that turns the phrase above into concrete actions  
+    // await expect(loginPage.clickComics).toExist();
+    // await expect(loginPage.clickComics).toHaveTextContaining('COMICS');
     await loginPage.clickComics.click();
     //await loginPage.enterAvengers.click();
     await loginPage.enterAvengers.setValue(avenger);
@@ -51,11 +35,6 @@ When('User Check and verify number of results {string}', async(number) => {
     await expect(loginPage.countOutput).toExist();
     await expect(loginPage.countOutput).toHaveChildren({ number });
 
-    //console.log(temp);
-    //rows = loginPage.countOutput.getSize();
-    //rows.length();
-
-
 });
 
 When('User Check and verify number of pages {string}', async(page) => {
@@ -64,3 +43,45 @@ When('User Check and verify number of pages {string}', async(page) => {
 
 
 });
+
+When('User select the {string} option', async(completeCollection) => {
+    await expect(ShopPage.moreButtonClick).toExist();
+    await ShopPage.moreButtonClick.click();
+    await expect(ShopPage.shopButtonClick).toExist();
+    await ShopPage.shopButtonClick.click();
+    // await expect(ShopPage.completeYourCollectionOption).toExist();
+    // await expect(ShopPage.completeYourCollectionOption).toHaveTextContaining(completeCollection);
+    await ShopPage.closeModal.click();
+     await ShopPage.completeYourCollectionOption.click();
+  });
+  
+When('User filter by Age {string}', async (string)=> {
+    await expect(ShopPage.clickAge).toExist();
+    await ShopPage.clickAge.click();
+    await expect(ShopPage.filterKids).toExist();
+    await ShopPage.filterKids.click();
+  });
+
+When('User Sort by price low to high', async ()=> {
+    await ShopPage.sortByClick.click();
+    await ShopPage.sortBylowToHigh.click();
+  });
+
+When('User Add {int} Marvel Logo Pins', async (quantity)=> {
+  await expect(ShopPage.product).toExist();
+  await expect(ShopPage.product).toExist();
+  await ShopPage.product.click();
+  for (i=0; i<(quantity-1);i++){
+  await ShopPage.increaseQuantity.click();
+  }
+  });
+
+When('User Check and verify at the basket side pop up that the subtotal is {string}', async (float)=> {
+    await expect(ShopPage.addToBag).toExist();
+    await ShopPage.addToBag.click();
+    await expect(ShopPage.basketTotal).toExist();
+    await expect(ShopPage.basketTotal).toExist();
+
+    console.log("asdfsdafffasfdsadsf"+float);
+    await expect(ShopPage.basketTotal).toHaveTextContaining(float);
+  });
