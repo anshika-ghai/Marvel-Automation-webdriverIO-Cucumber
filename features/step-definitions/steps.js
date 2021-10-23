@@ -31,6 +31,7 @@ When('User Search for {string} in the COMICS section', async(avenger) => {
 
 
 When('User Check and verify number of results {string}', async(number) => {
+    await expect(loginPage.suggestionOutput).toExist();
     await loginPage.suggestionOutput.click();
     await expect(loginPage.countOutput).toExist();
     await expect(loginPage.countOutput).toHaveChildren({ number });
@@ -47,6 +48,7 @@ When('User Check and verify number of pages {string}', async(page) => {
 When('User select the {string} option', async(completeCollection) => {
     await expect(ShopPage.moreButtonClick).toExist();
     await ShopPage.moreButtonClick.click();
+    await expect(ShopPage.shopButtonClick).toExist();
     await expect(ShopPage.shopButtonClick).toExist();
     await ShopPage.shopButtonClick.click();
     // await expect(ShopPage.completeYourCollectionOption).toExist();
