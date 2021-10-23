@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"react-autowhatever-1--item-0\"]\"}\n  (Session info: chrome=95.0.4638.54)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x006EBDE3+2473443]\n\tOrdinal0 [0x00686661+2057825]\n\tOrdinal0 [0x00592438+1057848]\n\tOrdinal0 [0x005BC7DB+1230811]\n\tOrdinal0 [0x005E6712+1402642]\n\tOrdinal0 [0x005D571A+1333018]\n\tOrdinal0 [0x005E4ABF+1395391]\n\tOrdinal0 [0x005D55AB+1332651]\n\tOrdinal0 [0x005B2104+1188100]\n\tOrdinal0 [0x005B2F59+1191769]\n\tGetHandleVerifier [0x00872266+1549718]\n\tGetHandleVerifier [0x0091D4A7+2250711]\n\tGetHandleVerifier [0x0077718B+521403]\n\tGetHandleVerifier [0x00776229+517465]\n\tOrdinal0 [0x0068B79D+2078621]\n\tOrdinal0 [0x0068FB58+2095960]\n\tOrdinal0 [0x0068FC92+2096274]\n\tOrdinal0 [0x00699541+2135361]\n\tBaseThreadInitThunk [0x75836739+25]\n\tRtlGetFullPathName_UEx [0x773E8AFF+1215]\n\tRtlGetFullPathName_UEx [0x773E8ACD+1165]\n"
+}

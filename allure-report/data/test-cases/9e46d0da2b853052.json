@@ -1,0 +1,87 @@
+{
+  "uid" : "9e46d0da2b853052",
+  "name" : "When User clicks on search button",
+  "fullName" : "To test the functionality in \"The Marvel App\": The one where user logs in using valid credentials.When User clicks on search button",
+  "historyId" : "3bb011a2c614c8b9b54281b38b948144",
+  "time" : {
+    "start" : 1634688472235,
+    "stop" : 1634688472244,
+    "duration" : 9
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1634688472238,
+        "stop" : 0,
+        "duration" : -1634688472238
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e7fac34599d7d207",
+        "name" : "Request",
+        "source" : "e7fac34599d7d207.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the functionality in \"The Marvel App\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the functionality in \"The Marvel App\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "When User clicks on search button"
+  }, {
+    "name" : "package",
+    "value" : "To test the functionality in \"The Marvel App\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e46d0da2b853052.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

@@ -1,0 +1,8 @@
+{
+    "editor.detectIndentation": false,
+    "window.zoomLevel": 0,
+    "cucumberautocomplete.steps": [
+        "./features/step-definitions/steps.js"
+    ],
+    "cucumberautocomplete.syncfeatures": "./features/*.feature"
+}

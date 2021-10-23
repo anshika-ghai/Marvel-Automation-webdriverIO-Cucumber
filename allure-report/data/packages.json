@@ -1,0 +1,87 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "To test the functionality in \"The Marvel App\": The one where user logs in using valid credentials",
+    "children" : [ {
+      "name" : "And the user enters \"Avengers\" in search page",
+      "uid" : "de569daeb04955cf",
+      "parentUid" : "18ad37ee2b79c5df83bad444ae220f07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634686666417,
+        "stop" : 1634686666427,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "When the user enters \"Avengers\" in search page",
+      "uid" : "73d190fa4a1bdf47",
+      "parentUid" : "18ad37ee2b79c5df83bad444ae220f07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634690060548,
+        "stop" : 1634690060559,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "When User clicks on search button",
+      "uid" : "466fb10607cb69e9",
+      "parentUid" : "18ad37ee2b79c5df83bad444ae220f07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634734428104,
+        "stop" : 1634734428119,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Given the user is on login page",
+      "uid" : "e2a86d967e65f53",
+      "parentUid" : "18ad37ee2b79c5df83bad444ae220f07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634735424890,
+        "stop" : 1634735424897,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "When User Search for \"Avengers\" in the COMICS section",
+      "uid" : "9fd58473efe7cdde",
+      "parentUid" : "18ad37ee2b79c5df83bad444ae220f07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634735424897,
+        "stop" : 1634735424917,
+        "duration" : 20
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "",
+      "uid" : "6b6f8f7189b2aafd",
+      "parentUid" : "18ad37ee2b79c5df83bad444ae220f07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634735424917,
+        "stop" : 1634735424917,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    } ],
+    "uid" : "18ad37ee2b79c5df83bad444ae220f07"
+  } ]
+}

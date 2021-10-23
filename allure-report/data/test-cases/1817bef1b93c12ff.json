@@ -1,0 +1,150 @@
+{
+  "uid" : "1817bef1b93c12ff",
+  "name" : "When User clicks on search button",
+  "fullName" : "To test the functionality in \"The Marvel App\": The one where user logs in using valid credentials.When User clicks on search button",
+  "historyId" : "3bb011a2c614c8b9b54281b38b948144",
+  "time" : {
+    "start" : 1634732611287,
+    "stop" : 1634732611308,
+    "duration" : 21
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/timeouts",
+      "time" : {
+        "start" : 1634732611291,
+        "stop" : 0,
+        "duration" : -1634732611291
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1634732611295,
+          "stop" : 0,
+          "duration" : -1634732611295
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1634732611298,
+            "stop" : 0,
+            "duration" : -1634732611298
+          },
+          "status" : "unknown",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1634732611301,
+              "stop" : 0,
+              "duration" : -1634732611301
+            },
+            "status" : "unknown",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "6c614d3fd0fb352b",
+              "name" : "Request",
+              "source" : "6c614d3fd0fb352b.json",
+              "type" : "application/json",
+              "size" : 75
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "f2aeb544bb1c13c9",
+            "name" : "Request",
+            "source" : "f2aeb544bb1c13c9.json",
+            "type" : "application/json",
+            "size" : 75
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 1,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "4ecd59a9b2032cd3",
+          "name" : "Request",
+          "source" : "4ecd59a9b2032cd3.json",
+          "type" : "application/json",
+          "size" : 75
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "5bdeb86139d8bb14",
+        "name" : "Request",
+        "source" : "5bdeb86139d8bb14.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the functionality in \"The Marvel App\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the functionality in \"The Marvel App\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "When User clicks on search button"
+  }, {
+    "name" : "package",
+    "value" : "To test the functionality in \"The Marvel App\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1817bef1b93c12ff.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

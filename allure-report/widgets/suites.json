@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "41b6679ff0bfb0bc25b06e07c3065063",
+    "name" : "To test the functionality in \"The Marvel App\": The one where user logs in using valid credentials",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
+}

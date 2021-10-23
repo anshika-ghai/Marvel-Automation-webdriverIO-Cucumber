@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class=\"search-bar\"]//div[1]//*[@class=\"typeahead__container\"]//*[@class=\"typeahead__input\"]"
+}

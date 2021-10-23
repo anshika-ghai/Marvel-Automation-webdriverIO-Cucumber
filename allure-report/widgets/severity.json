@@ -1,0 +1,61 @@
+[ {
+  "uid" : "e2a86d967e65f53",
+  "name" : "Given the user is on login page",
+  "time" : {
+    "start" : 1634735424890,
+    "stop" : 1634735424897,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73d190fa4a1bdf47",
+  "name" : "When the user enters \"Avengers\" in search page",
+  "time" : {
+    "start" : 1634690060548,
+    "stop" : 1634690060559,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de569daeb04955cf",
+  "name" : "And the user enters \"Avengers\" in search page",
+  "time" : {
+    "start" : 1634686666417,
+    "stop" : 1634686666427,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fd58473efe7cdde",
+  "name" : "When User Search for \"Avengers\" in the COMICS section",
+  "time" : {
+    "start" : 1634735424897,
+    "stop" : 1634735424917,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b6f8f7189b2aafd",
+  "name" : "",
+  "time" : {
+    "start" : 1634735424917,
+    "stop" : 1634735424917,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "466fb10607cb69e9",
+  "name" : "When User clicks on search button",
+  "time" : {
+    "start" : 1634734428104,
+    "stop" : 1634734428119,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

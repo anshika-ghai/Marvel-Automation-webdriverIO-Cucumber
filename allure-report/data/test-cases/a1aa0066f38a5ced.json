@@ -1,0 +1,150 @@
+{
+  "uid" : "a1aa0066f38a5ced",
+  "name" : "When User Search for \"Avengers\" in the COMICS section",
+  "fullName" : "To test the functionality in \"The Marvel App\": The one where user logs in using valid credentials.When User Search for \"Avengers\" in the COMICS section",
+  "historyId" : "da1c8cad355b8321e997a6694d814ccb",
+  "time" : {
+    "start" : 1634734960262,
+    "stop" : 1634734960286,
+    "duration" : 24
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1634734960269,
+        "stop" : 0,
+        "duration" : -1634734960269
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1634734960272,
+          "stop" : 0,
+          "duration" : -1634734960272
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1634734960275,
+            "stop" : 0,
+            "duration" : -1634734960275
+          },
+          "status" : "unknown",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1634734960278,
+              "stop" : 0,
+              "duration" : -1634734960278
+            },
+            "status" : "unknown",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "60ccd34fceacf8fa",
+              "name" : "Request",
+              "source" : "60ccd34fceacf8fa.json",
+              "type" : "application/json",
+              "size" : 69
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "28c680fbfe969eef",
+            "name" : "Request",
+            "source" : "28c680fbfe969eef.json",
+            "type" : "application/json",
+            "size" : 85
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 1,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "d83571d1c84a6fd2",
+          "name" : "Request",
+          "source" : "d83571d1c84a6fd2.json",
+          "type" : "application/json",
+          "size" : 85
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "65342b6697f0941e",
+        "name" : "Request",
+        "source" : "65342b6697f0941e.json",
+        "type" : "application/json",
+        "size" : 85
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the functionality in \"The Marvel App\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the functionality in \"The Marvel App\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "When User Search for \"Avengers\" in the COMICS section"
+  }, {
+    "name" : "package",
+    "value" : "To test the functionality in \"The Marvel App\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a1aa0066f38a5ced.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

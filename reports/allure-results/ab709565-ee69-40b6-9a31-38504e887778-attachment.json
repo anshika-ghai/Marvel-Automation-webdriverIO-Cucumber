@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@class=\"search-bar\"]//*[text()=\"comics\"]"
+}
