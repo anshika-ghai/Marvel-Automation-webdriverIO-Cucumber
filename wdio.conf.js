@@ -1,4 +1,4 @@
-//const moment = require('moment');
+const moment = require('moment');
 exports.config = {
     //
     // ====================
@@ -257,12 +257,12 @@ exports.config = {
      * @param {string}             result.error    error stack if scenario failed
      * @param {number}             result.duration duration of scenario in milliseconds
      */
-    //afterStep: function(step, context, error, result, duration, passed, retries) {
-    //   if (error) {
-    //      browser.saveScreenshot('./reports/screenshots/Fail_' +
-    //moment().format('DD-MMM-YYYY-HH-MM-SS') + '.png')
-    //}
-    //},
+    afterStep: function(step, context, error, result, duration, passed, retries) {
+      if (error) {
+         browser.saveScreenshot('./reports/screenshots/Screenshots' +
+    moment().format('DD-MMM-YYYY-HH-MM-SS') + '.png')
+    }
+    },
     /**
      *
      * Runs before a Cucumber Scenario.
