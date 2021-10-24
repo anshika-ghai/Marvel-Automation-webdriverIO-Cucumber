@@ -8,3 +8,6 @@
 1. Generating Allure Report: allure generate ./reports/allure-results    
 2. Opening Allure report: allure open
 3. Screenshots would be present under /reports/screenshots
+
+**ConfigurationFile**
+All the configurations have been added in wdio.conf.js
