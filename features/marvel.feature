@@ -1,4 +1,3 @@
-@skip
 Feature: To test the functionality in "The Marvel App"
 
 Background:
