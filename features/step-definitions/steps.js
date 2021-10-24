@@ -1,9 +1,10 @@
 const { Given, When, Then } = require("@cucumber/cucumber");
+const basePage = require("../pageobjects/base.page");
 const SearchPage = require("../pageobjects/search.page");
 const ShopPage = require("../pageobjects/shop.page");
 
-Given("the user is on search page", async () => {
-  await SearchPage.open();
+Given("the user is on {string} page", async (base) => {
+  await basePage.open(base);
   browser.maximizeWindow();
 });
 
@@ -35,6 +36,7 @@ When("User select the {string} option", async (completeCollection) => {
   await expect(ShopPage.shopButtonClick).toExist();
   await expect(ShopPage.shopButtonClick).toExist();
   await ShopPage.shopButtonClick.click();
+  await expect(ShopPage.closeModal).toExist();
   await ShopPage.closeModal.click();
   await ShopPage.completeYourCollectionOption.click();
 });

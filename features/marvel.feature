@@ -2,7 +2,7 @@ Feature: To test the functionality in "The Marvel App"
 
 Background:
 
-    Given the user is on search page
+    Given the user is on "https://www.marvel.com/" page
 
 Scenario: The one where user logs in using valid credentials
     When User clicks on search button

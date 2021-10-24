@@ -1,9 +1,8 @@
-const Page = require('./base.page');
 
 /**
  * sub page containing specific selectors and methods for a specific page
  */
-class SearchPage extends Page {
+class SearchPage {
     /**
      * define selectors using getter methods
      */
@@ -20,7 +19,7 @@ class SearchPage extends Page {
     }
 
     get suggestionOutput() {
-        return $('//*[@class="typeahead__suggestion"][1]')
+        return $('//*[@class="typeahead__suggestion"][5]')
     }
     get countOutput() {
         return $('//*[@class="search-list__cards"]')
@@ -29,12 +28,6 @@ class SearchPage extends Page {
             return $('//*[@class="pagination"]//child::li[last()-1]')
         }
      
-    /**
-     * overwrite specifc options to adapt it to page object
-     */
-    open() {
-        return super.open('https://www.marvel.com/');
-    }
 }
 
 module.exports = new SearchPage();
