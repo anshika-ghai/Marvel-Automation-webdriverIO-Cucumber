@@ -39,6 +39,7 @@ When("User select the Complete Your Collection option", async () => {
   await ShopPage.shopButtonClick.click();
   await expect(ShopPage.closeModal).toExist();
   await ShopPage.closeModal.click();
+  await expect(ShopPage.completeYourCollectionOption).toExist();
   await ShopPage.completeYourCollectionOption.click();
 });
 
