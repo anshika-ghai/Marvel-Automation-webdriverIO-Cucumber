@@ -2,7 +2,7 @@ const { Given, When, Then } = require("@cucumber/cucumber");
 const SearchPage = require("../pageobjects/search.page");
 const ShopPage = require("../pageobjects/shop.page");
 
-Given("the user is on login page", async () => {
+Given("the user is on search page", async () => {
   await SearchPage.open();
   browser.maximizeWindow();
 });
