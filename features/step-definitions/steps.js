@@ -32,6 +32,7 @@ When("User Check and verify number of pages {string}", async (page) => {
 
 When("User select the Complete Your Collection option", async () => {
   await expect(ShopPage.moreButtonClick).toExist();
+  await expect(ShopPage.moreButtonClick).toExist();
   await ShopPage.moreButtonClick.click();
   await expect(ShopPage.shopButtonClick).toExist();
   await expect(ShopPage.shopButtonClick).toExist();
