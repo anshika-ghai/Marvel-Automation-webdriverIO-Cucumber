@@ -30,7 +30,7 @@ When("User Check and verify number of pages {string}", async (page) => {
   await expect(SearchPage.pageNumber).toHaveTextContaining(page);
 });
 
-When("User select the {string} option", async (completeCollection) => {
+When("User select the Complete Your Collection option", async () => {
   await expect(ShopPage.moreButtonClick).toExist();
   await ShopPage.moreButtonClick.click();
   await expect(ShopPage.shopButtonClick).toExist();
