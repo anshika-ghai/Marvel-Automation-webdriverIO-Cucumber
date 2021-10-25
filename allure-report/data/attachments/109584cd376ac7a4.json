@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@class=\"close focusClass no-thanks\"][@data-dismiss=\"modal\"]"
+}

@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//*[@class=\"pagination\"]//child::li[last()-1]"
-}

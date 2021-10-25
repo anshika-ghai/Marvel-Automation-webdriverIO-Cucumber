@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"search_bar-1\"]//div[1]//*[@class=\"typeahead__container\"]//*[@class=\"typeahead__input\"]\"}\n  (Session info: chrome=95.0.4638.54)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x0100BDE3+2473443]\n\tOrdinal0 [0x00FA6661+2057825]\n\tOrdinal0 [0x00EB2438+1057848]\n\tOrdinal0 [0x00EDC7DB+1230811]\n\tOrdinal0 [0x00F06712+1402642]\n\tOrdinal0 [0x00EF571A+1333018]\n\tOrdinal0 [0x00F04ABF+1395391]\n\tOrdinal0 [0x00EF55AB+1332651]\n\tOrdinal0 [0x00ED2104+1188100]\n\tOrdinal0 [0x00ED2F59+1191769]\n\tGetHandleVerifier [0x01192266+1549718]\n\tGetHandleVerifier [0x0123D4A7+2250711]\n\tGetHandleVerifier [0x0109718B+521403]\n\tGetHandleVerifier [0x01096229+517465]\n\tOrdinal0 [0x00FAB79D+2078621]\n\tOrdinal0 [0x00FAFB58+2095960]\n\tOrdinal0 [0x00FAFC92+2096274]\n\tOrdinal0 [0x00FB9541+2135361]\n\tBaseThreadInitThunk [0x76176739+25]\n\tRtlGetFullPathName_UEx [0x77AA8AFF+1215]\n\tRtlGetFullPathName_UEx [0x77AA8ACD+1165]\n"
-}

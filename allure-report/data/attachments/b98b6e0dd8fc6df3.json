@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@data-linkid=\"product_page_content/product page action/add to bag\"]"
+}
