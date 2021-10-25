@@ -20,3 +20,6 @@ Clear Allure Report Folder: allure generate ./reports/allure-results  --clean
 All the configurations have been added in wdio.conf.js
 
 All the pre-executed reports can be seen under allure-report folder and open index.html file
+
+![Screenshot_1](https://user-images.githubusercontent.com/62524954/138698715-b94e5299-5f00-42bd-8b1c-7f6032c5fb59.jpg)
+![Screenshot_2](https://user-images.githubusercontent.com/62524954/138698718-c20561d8-cfce-4ffe-b745-22353b796047.jpg)
