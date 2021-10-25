@@ -1,0 +1,56 @@
+{
+  "uid" : "a2c30bd402c91f1e",
+  "name" : "When User Add 2 Marvel Logo Pins",
+  "fullName" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2).When User Add 2 Marvel Logo Pins",
+  "historyId" : "fa72238e0bd021f21f0a1495d2139768",
+  "time" : {
+    "start" : 1635165249890,
+    "stop" : 1635165249890,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2)"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2)"
+  }, {
+    "name" : "testMethod",
+    "value" : "When User Add 2 Marvel Logo Pins"
+  }, {
+    "name" : "package",
+    "value" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2c30bd402c91f1e.json",
+  "parameterValues" : [ "chrome-95.0.4638.54" ]
+}

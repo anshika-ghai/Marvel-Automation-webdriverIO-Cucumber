@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@class=\"product__tile_alt_img current \"]//*[@title=\"Marvel Logo Pin – Rainbow Marvel Collection\"]"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@class=\"sort__container\"]//*[@class=\"icon__filter_dropdown_arrow\"]"
+}

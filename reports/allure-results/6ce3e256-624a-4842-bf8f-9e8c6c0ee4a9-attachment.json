@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@data-linkid=\"list_page_content/filter/Age/Kids\"]//span[@class=\"checkbox__refinement\"]"
+}

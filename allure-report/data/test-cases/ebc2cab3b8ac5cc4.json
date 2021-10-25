@@ -1,0 +1,202 @@
+{
+  "uid" : "ebc2cab3b8ac5cc4",
+  "name" : "When User Search for \"AVENGERS\" in the COMICS section",
+  "fullName" : "To test the functionality in \"The Marvel App\": Navigates to the Search Page.When User Search for \"AVENGERS\" in the COMICS section",
+  "historyId" : "b481bd59ef8835ece7c33f5e46b96856",
+  "time" : {
+    "start" : 1635165293022,
+    "stop" : 1635165293671,
+    "duration" : 649
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1635165293023,
+        "stop" : 1635165293251,
+        "duration" : 228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5345a73198071f07",
+        "name" : "Request",
+        "source" : "5345a73198071f07.json",
+        "type" : "application/json",
+        "size" : 85
+      }, {
+        "uid" : "dc5f79997a785d34",
+        "name" : "Screenshot",
+        "source" : "dc5f79997a785d34.png",
+        "type" : "image/png",
+        "size" : 96996
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/f029b0e0-fdfd-466f-8239-d870f370f505/click",
+      "time" : {
+        "start" : 1635165293266,
+        "stop" : 1635165293470,
+        "duration" : 204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1635165293471,
+        "stop" : 1635165293516,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "94908f86573b23cc",
+        "name" : "Request",
+        "source" : "94908f86573b23cc.json",
+        "type" : "application/json",
+        "size" : 138
+      }, {
+        "uid" : "88935fd52eaf3e58",
+        "name" : "Response",
+        "source" : "88935fd52eaf3e58.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/51db44ef-4f75-4b02-9971-3c0786f3714f/clear",
+      "time" : {
+        "start" : 1635165293520,
+        "stop" : 1635165293560,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/51db44ef-4f75-4b02-9971-3c0786f3714f/value",
+      "time" : {
+        "start" : 1635165293565,
+        "stop" : 1635165293668,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e46166cd553aa603",
+        "name" : "Request",
+        "source" : "e46166cd553aa603.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1635165293669,
+        "stop" : 0,
+        "duration" : -1635165293669
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "699997dcee4b2b24",
+      "name" : "Response",
+      "source" : "699997dcee4b2b24.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the functionality in \"The Marvel App\": Navigates to the Search Page"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the functionality in \"The Marvel App\": Navigates to the Search Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "When User Search for \"AVENGERS\" in the COMICS section"
+  }, {
+    "name" : "package",
+    "value" : "To test the functionality in \"The Marvel App\": Navigates to the Search Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a3e5458af40eb231",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165237235,
+        "stop" : 1635165237877,
+        "duration" : 642
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ebc2cab3b8ac5cc4.json",
+  "parameterValues" : [ "chrome-95.0.4638.54" ]
+}

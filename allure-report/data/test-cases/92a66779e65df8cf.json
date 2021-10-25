@@ -1,0 +1,133 @@
+{
+  "uid" : "92a66779e65df8cf",
+  "name" : "Given the user is on \"https://www.marvel.com/\" page",
+  "fullName" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2).Given the user is on \"https://www.marvel.com/\" page",
+  "historyId" : "d4dfb20515a240d08b96c6b4ece56439",
+  "time" : {
+    "start" : 1635165296493,
+    "stop" : 1635165304053,
+    "duration" : 7560
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1635165296494,
+        "stop" : 1635165296916,
+        "duration" : 422
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc103a6db5a151f5",
+        "name" : "Request",
+        "source" : "cc103a6db5a151f5.json",
+        "type" : "application/json",
+        "size" : 38
+      }, {
+        "uid" : "5a48f34edeabbecb",
+        "name" : "Screenshot",
+        "source" : "5a48f34edeabbecb.png",
+        "type" : "image/png",
+        "size" : 796723
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1635165304050,
+        "stop" : 0,
+        "duration" : -1635165304050
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1635165304051,
+          "stop" : 0,
+          "duration" : -1635165304051
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2)"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given the user is on \"https://www.marvel.com/\" page"
+  }, {
+    "name" : "package",
+    "value" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9afdc13df83aa161",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165240735,
+        "stop" : 1635165247970,
+        "duration" : 7235
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92a66779e65df8cf.json",
+  "parameterValues" : [ "chrome-95.0.4638.54" ]
+}

@@ -1,0 +1,265 @@
+{
+  "uid" : "52fdcdd5c4837c83",
+  "name" : "When User Sort by price low to high",
+  "fullName" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2).When User Sort by price low to high",
+  "historyId" : "f28b2c3f97f6bbfb88e0dafae249e816",
+  "time" : {
+    "start" : 1635165313076,
+    "stop" : 1635165314370,
+    "duration" : 1294
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1635165313077,
+        "stop" : 1635165313534,
+        "duration" : 457
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1d78f866a2d2144b",
+        "name" : "Request",
+        "source" : "1d78f866a2d2144b.json",
+        "type" : "application/json",
+        "size" : 111
+      }, {
+        "uid" : "b2b8768aba2ecf26",
+        "name" : "Screenshot",
+        "source" : "b2b8768aba2ecf26.png",
+        "type" : "image/png",
+        "size" : 964450
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/2329f14d-5d99-4104-9d3d-1e36018ca5fa/click",
+      "time" : {
+        "start" : 1635165313543,
+        "stop" : 0,
+        "duration" : -1635165313543
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1635165314176,
+          "stop" : 1635165314196,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "944b7dc338a2c610",
+          "name" : "Request",
+          "source" : "944b7dc338a2c610.json",
+          "type" : "application/json",
+          "size" : 111
+        }, {
+          "uid" : "f6c18d4fad03d339",
+          "name" : "Response",
+          "source" : "f6c18d4fad03d339.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/2329f14d-5d99-4104-9d3d-1e36018ca5fa/click",
+        "time" : {
+          "start" : 1635165314197,
+          "stop" : 0,
+          "duration" : -1635165314197
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1635165314203,
+            "stop" : 1635165314220,
+            "duration" : 17
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "666b104a44580d09",
+            "name" : "Request",
+            "source" : "666b104a44580d09.json",
+            "type" : "application/json",
+            "size" : 111
+          }, {
+            "uid" : "5dc880f95281a205",
+            "name" : "Response",
+            "source" : "5dc880f95281a205.json",
+            "type" : "application/json",
+            "size" : 83
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/element/4cdd6094-7db3-4c4f-86e2-306c8d17073e/click",
+          "time" : {
+            "start" : 1635165314222,
+            "stop" : 1635165314273,
+            "duration" : 51
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1635165314273,
+            "stop" : 1635165314290,
+            "duration" : 17
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "2bde1c84b3532dbf",
+            "name" : "Request",
+            "source" : "2bde1c84b3532dbf.json",
+            "type" : "application/json",
+            "size" : 79
+          }, {
+            "uid" : "6d7c59f974034331",
+            "name" : "Response",
+            "source" : "6d7c59f974034331.json",
+            "type" : "application/json",
+            "size" : 83
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/element/22646722-aa7e-4060-b6e2-d6fb5f523a09/click",
+          "time" : {
+            "start" : 1635165314291,
+            "stop" : 1635165314368,
+            "duration" : 77
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/screenshot",
+          "time" : {
+            "start" : 1635165314369,
+            "stop" : 0,
+            "duration" : -1635165314369
+          },
+          "status" : "unknown",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 4,
+        "stepsCount" : 5,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 6,
+      "stepsCount" : 7,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "48a4a1acbd6b4000",
+      "name" : "Response",
+      "source" : "48a4a1acbd6b4000.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 9,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2)"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2)"
+  }, {
+    "name" : "testMethod",
+    "value" : "When User Sort by price low to high"
+  }, {
+    "name" : "package",
+    "value" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "960361ad0e25a004",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1635165249890,
+        "stop" : 1635165249890,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52fdcdd5c4837c83.json",
+  "parameterValues" : [ "chrome-95.0.4638.54" ]
+}

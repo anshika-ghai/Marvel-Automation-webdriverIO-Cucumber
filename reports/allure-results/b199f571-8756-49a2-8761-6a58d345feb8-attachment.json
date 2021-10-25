@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@class=\"minibag__section minibag__footer\"]//*[@class=\"subtotal__container\"]//*[@class=\"minibag__subtotal_value\"]"
+}

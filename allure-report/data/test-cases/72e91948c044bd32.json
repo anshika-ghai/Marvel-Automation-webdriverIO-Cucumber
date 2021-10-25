@@ -1,0 +1,189 @@
+{
+  "uid" : "72e91948c044bd32",
+  "name" : "And User Check and verify number of pages \"154\"",
+  "fullName" : "To test the functionality in \"The Marvel App\": Navigates to the Search Page.And User Check and verify number of pages \"154\"",
+  "historyId" : "d45c1ca5fa351fc7826a22d223d69c5",
+  "time" : {
+    "start" : 1635165240162,
+    "stop" : 1635165240707,
+    "duration" : 545
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1635165240164,
+        "stop" : 1635165240627,
+        "duration" : 463
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5859ca44c370ac72",
+        "name" : "Request",
+        "source" : "5859ca44c370ac72.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "ccf478eca7ff7501",
+        "name" : "Screenshot",
+        "source" : "ccf478eca7ff7501.png",
+        "type" : "image/png",
+        "size" : 796813
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1635165240639,
+        "stop" : 1635165240661,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa08fad1ce8292aa",
+        "name" : "Request",
+        "source" : "aa08fad1ce8292aa.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "ecc6b1803bb1789a",
+        "name" : "Response",
+        "source" : "ecc6b1803bb1789a.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1635165240664,
+        "stop" : 1635165240680,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c2766807ba07859f",
+        "name" : "Request",
+        "source" : "c2766807ba07859f.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "68a510ba3b7d7d42",
+        "name" : "Response",
+        "source" : "68a510ba3b7d7d42.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/8f265560-7ed6-421f-973b-5da29ae95e61/text",
+      "time" : {
+        "start" : 1635165240684,
+        "stop" : 1635165240703,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "afedcf88708f63c3",
+        "name" : "Response",
+        "source" : "afedcf88708f63c3.json",
+        "type" : "application/json",
+        "size" : 5
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1635165240705,
+        "stop" : 0,
+        "duration" : -1635165240705
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "dc5e8ab6de9cc26d",
+      "name" : "Response",
+      "source" : "dc5e8ab6de9cc26d.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the functionality in \"The Marvel App\": Navigates to the Search Page"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the functionality in \"The Marvel App\": Navigates to the Search Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "And User Check and verify number of pages \"154\""
+  }, {
+    "name" : "package",
+    "value" : "To test the functionality in \"The Marvel App\": Navigates to the Search Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "72e91948c044bd32.json",
+  "parameterValues" : [ "chrome-95.0.4638.54" ]
+}

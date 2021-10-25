@@ -1,0 +1,82 @@
+{
+  "uid" : "13cf171a3dd8d1b7",
+  "name" : "",
+  "fullName" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2).",
+  "historyId" : "6dd7a5c6f9c4e51c4a1e09c917905ff5",
+  "time" : {
+    "start" : 1635165320641,
+    "stop" : 1635165320642,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2)"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2)"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dff72681948ce92f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165296492,
+        "stop" : 1635165296493,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a16e001f641e368",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165249890,
+        "stop" : 1635165249891,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c876d01396fa86e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165240733,
+        "stop" : 1635165240734,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13cf171a3dd8d1b7.json",
+  "parameterValues" : [ "chrome-95.0.4638.54" ]
+}

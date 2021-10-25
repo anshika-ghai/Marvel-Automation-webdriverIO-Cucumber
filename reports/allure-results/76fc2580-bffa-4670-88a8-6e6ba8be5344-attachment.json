@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class=\"product__tile_alt_img current \"]//*[@title=\"Marvel Logo Pin – Rainbow Marvel Collection\"]\"}\n  (Session info: chrome=95.0.4638.54)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00E9BDE3+2473443]\n\tOrdinal0 [0x00E36661+2057825]\n\tOrdinal0 [0x00D42438+1057848]\n\tOrdinal0 [0x00D6C7DB+1230811]\n\tOrdinal0 [0x00D96712+1402642]\n\tOrdinal0 [0x00D8571A+1333018]\n\tOrdinal0 [0x00D94ABF+1395391]\n\tOrdinal0 [0x00D855AB+1332651]\n\tOrdinal0 [0x00D62104+1188100]\n\tOrdinal0 [0x00D62F59+1191769]\n\tGetHandleVerifier [0x01022266+1549718]\n\tGetHandleVerifier [0x010CD4A7+2250711]\n\tGetHandleVerifier [0x00F2718B+521403]\n\tGetHandleVerifier [0x00F26229+517465]\n\tOrdinal0 [0x00E3B79D+2078621]\n\tOrdinal0 [0x00E3FB58+2095960]\n\tOrdinal0 [0x00E3FC92+2096274]\n\tOrdinal0 [0x00E49541+2135361]\n\tBaseThreadInitThunk [0x75E66739+25]\n\tRtlGetFullPathName_UEx [0x77878AFF+1215]\n\tRtlGetFullPathName_UEx [0x77878ACD+1165]\n"
+}

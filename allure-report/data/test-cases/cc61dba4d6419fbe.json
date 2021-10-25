@@ -1,0 +1,82 @@
+{
+  "uid" : "cc61dba4d6419fbe",
+  "name" : "",
+  "fullName" : "To test the functionality in \"The Marvel App\": Navigates to the Search Page.",
+  "historyId" : "96de13063fa2c1b65bf84f7dfafbc5fd",
+  "time" : {
+    "start" : 1635165296456,
+    "stop" : 1635165296457,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the functionality in \"The Marvel App\": Navigates to the Search Page"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the functionality in \"The Marvel App\": Navigates to the Search Page"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "To test the functionality in \"The Marvel App\": Navigates to the Search Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cb1bbe9b32512e7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165265982,
+        "stop" : 1635165265985,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "b8d5772256b1ec8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165240707,
+        "stop" : 1635165240707,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a61a19ed69e56206",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165205867,
+        "stop" : 1635165205869,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc61dba4d6419fbe.json",
+  "parameterValues" : [ "chrome-95.0.4638.54" ]
+}

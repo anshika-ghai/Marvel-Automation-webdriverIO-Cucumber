@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@class=\"product__qty_btn product__qty_btn--up button--icon\"]"
+}
