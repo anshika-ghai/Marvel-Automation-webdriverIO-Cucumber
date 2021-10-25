@@ -1,3 +1,6 @@
+Anshika Ghai
+
+Coding Challenge - Marvel API - v1
 # yapily
 **Getting Started**
 
