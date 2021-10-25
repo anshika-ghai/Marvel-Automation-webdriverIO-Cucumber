@@ -6,7 +6,7 @@ class ShopPage {
         return $('//*[@id="nav-flyout-7"]//*[@class="mvl-flyout__secondary-link"][4]')
     } 
     get completeYourCollectionOption() {
-        return $('//*[text()="Complete Your Collection"]')
+        return $('//*[@class="mobilecolor_222 desktopcolor_222"]//*[text()="Complete Your Collection"]')
     } 
     get closeModal(){
         return $('//*[@class="close focusClass no-thanks"][@data-dismiss="modal"]')
