@@ -4,2553 +4,395 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "When User clicks on search button",
-      "uid" : "d7b3be4541185756",
+      "name" : "When User Check and verify at the basket side pop up that the subtotal is \"$19.98\"",
+      "uid" : "992ae228c8c8b185",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634689115664,
-        "stop" : 1634689115672,
-        "duration" : 8
+        "start" : 1635165318391,
+        "stop" : 1635165320641,
+        "duration" : 2250
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
+      "parameters" : [ "chrome-95.0.4638.54" ]
     }, {
-      "name" : "Given the user is on login page",
-      "uid" : "6152ec8a3bb13290",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735313368,
-        "stop" : 1634735313376,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "b1a9ec4cbc642305",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686567957,
-        "stop" : 1634686567959,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "c1008011d1dfa341",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691061543,
-        "stop" : 1634691061558,
-        "duration" : 15
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "e2a86d967e65f53",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735424890,
-        "stop" : 1634735424897,
-        "duration" : 7
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "be6520eaa8acc1a0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688294212,
-        "stop" : 1634688294214,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "91d65d64db223426",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735102703,
-        "stop" : 1634735102704,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "582b23f7687af120",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686322391,
-        "stop" : 1634686322403,
-        "duration" : 12
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When the user enters \"Avengers\" in search page",
-      "uid" : "5282f23954f22e8b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687444971,
-        "stop" : 1634687444981,
-        "duration" : 10
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "dbafaec0cf750aca",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687444981,
-        "stop" : 1634687444982,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "f97adb11cac1ed78",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688058631,
-        "stop" : 1634688058633,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "9fd58473efe7cdde",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735424897,
-        "stop" : 1634735424917,
-        "duration" : 20
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "4c4cf21e6bc8ae3b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735227588,
-        "stop" : 1634735227604,
-        "duration" : 16
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "74dafe48ac8cca7a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687328364,
-        "stop" : 1634687328368,
-        "duration" : 4
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "91ac5419dfdf7b73",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686737904,
-        "stop" : 1634686737906,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "ab251a8d6c7f0a31",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690200830,
-        "stop" : 1634690200863,
-        "duration" : 33
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "3dcab390033431aa",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689572825,
-        "stop" : 1634689572839,
-        "duration" : 14
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "1c2598401258366f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687500619,
-        "stop" : 1634687500632,
-        "duration" : 13
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When the user enters \"Avengers\" in search page",
-      "uid" : "73d190fa4a1bdf47",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690060548,
-        "stop" : 1634690060559,
-        "duration" : 11
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "And the user enters \"Avengers\" in search page",
-      "uid" : "5c76625fd02659eb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686567979,
-        "stop" : 1634686567988,
-        "duration" : 9
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "fc54cc643284fe70",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734606730,
-        "stop" : 1634734606739,
-        "duration" : 9
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When the user enters \"Avengers\" in search page",
-      "uid" : "2020aae0aa7acd9f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687328346,
-        "stop" : 1634687328364,
-        "duration" : 18
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "41828e4be3befaae",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687328311,
-        "stop" : 1634687328333,
-        "duration" : 22
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When the user enters \"Avengers\" in search page",
-      "uid" : "f290c5d92c55bf77",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687402298,
-        "stop" : 1634687402306,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "And the user enters \"Avengers\" in search page",
-      "uid" : "b287ee42c96bb9ed",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686322403,
-        "stop" : 1634686322411,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "5f43cbeec53b0e33",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734960253,
-        "stop" : 1634734960254,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "9b35018a53e694b7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691706808,
-        "stop" : 1634691706809,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "9f0cea0620074e1a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689115652,
-        "stop" : 1634689115664,
-        "duration" : 12
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "ec645497fb98d58d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734428119,
-        "stop" : 1634734428124,
-        "duration" : 5
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When the user enters \"Avengers\" in search page",
-      "uid" : "dc2d7b7cbdb439a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686737930,
-        "stop" : 1634686737942,
-        "duration" : 12
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "18979b724a772f4c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687402279,
-        "stop" : 1634687402298,
-        "duration" : 19
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "3159870b44c7008b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735102670,
-        "stop" : 1634735102672,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "43bb9f3ba44b7ca9",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689612623,
-        "stop" : 1634689612637,
-        "duration" : 14
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "f86f9ba5b7b1f276",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690060496,
-        "stop" : 1634690060511,
-        "duration" : 15
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "47178e7772a6dd93",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634732818419,
-        "stop" : 1634732818421,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "ff649cc7d854beaf",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687402249,
-        "stop" : 1634687402251,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "e876412a97753012",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734372643,
-        "stop" : 1634734372659,
-        "duration" : 16
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "d7474b62b736b8d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735313367,
-        "stop" : 1634735313368,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "da50e93a930a4192",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691981409,
-        "stop" : 1634691981421,
-        "duration" : 12
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "14f78c76e0e53a8c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686322378,
-        "stop" : 1634686322391,
-        "duration" : 13
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "85bb361c68389a1f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735424889,
-        "stop" : 1634735424890,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "1ababd796baa3d62",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690060511,
-        "stop" : 1634690060548,
-        "duration" : 37
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "ba4f0fc3a979582e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735152795,
-        "stop" : 1634735152816,
-        "duration" : 21
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "307940d55e852b82",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734372635,
-        "stop" : 1634734372643,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "d148f8a9f3ee38bb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686737918,
-        "stop" : 1634686737930,
-        "duration" : 12
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "908c679de45b27f3",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687500643,
-        "stop" : 1634687500645,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "7228454798563ec0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691061581,
-        "stop" : 1634691061583,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "515a12b13711e132",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634732611319,
-        "stop" : 1634732611320,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "81b0b276a98fa4a2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735102672,
-        "stop" : 1634735102681,
-        "duration" : 9
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "5984acd75615037",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691540246,
-        "stop" : 1634691540269,
-        "duration" : 23
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "300cdc4646750311",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689612662,
-        "stop" : 1634689612664,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "e0c2523a332b327",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634732611274,
-        "stop" : 1634732611277,
-        "duration" : 3
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "88add9aa8e2b0d22",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735227604,
-        "stop" : 1634735227611,
-        "duration" : 7
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "33365308d51a63d3",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734746806,
-        "stop" : 1634734746814,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "cab3d73c1d9cd082",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690060493,
-        "stop" : 1634690060496,
-        "duration" : 3
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "df95a8967a9de01d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634728626660,
-        "stop" : 1634728626681,
-        "duration" : 21
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "5dcf77067443429f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691540269,
-        "stop" : 1634691540285,
-        "duration" : 16
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When the user enters \"Avengers\" in search page",
-      "uid" : "7c705e393008e237",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689612654,
-        "stop" : 1634689612662,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "6b6f8f7189b2aafd",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735424917,
-        "stop" : 1634735424917,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "22bc828a74fecfd7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690152487,
-        "stop" : 1634690152491,
-        "duration" : 4
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "39b092a2d2681a42",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734606721,
-        "stop" : 1634734606730,
-        "duration" : 9
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When the user enters \"Avengers\" in search page",
-      "uid" : "a6705fb765b451b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688145932,
-        "stop" : 1634688145949,
-        "duration" : 17
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "c2a1cb7fcbd26dd1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734746805,
-        "stop" : 1634734746806,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "cd73846d0dbb50d5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689670661,
-        "stop" : 1634689670670,
-        "duration" : 9
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "706ce8d5a98d77f3",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691981421,
-        "stop" : 1634691981422,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "ec628fa99340762e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686666387,
-        "stop" : 1634686666390,
-        "duration" : 3
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "60d97e942f0e350a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634732685235,
-        "stop" : 1634732685235,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When the user enters \"Avengers\" in search page",
-      "uid" : "e608d1a56a7dc8f1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688058621,
-        "stop" : 1634688058631,
-        "duration" : 10
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When the user enters \"Avengers\" in search page",
-      "uid" : "3a91285edf5f70e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689670670,
-        "stop" : 1634689670679,
-        "duration" : 9
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "1200c7c35b1482e7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688058608,
-        "stop" : 1634688058621,
-        "duration" : 13
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "ef6f1fe066bb4d2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735152816,
-        "stop" : 1634735152817,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "25c87ed53b568adf",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735346149,
-        "stop" : 1634735346150,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "674fdbc3fe41379b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690019554,
-        "stop" : 1634690019556,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "7d2fb3aba090fff9",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689115680,
-        "stop" : 1634689115681,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "e9fd079904f607d6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687328333,
-        "stop" : 1634687328346,
-        "duration" : 13
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "36cb39ca69cd0bb8",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734428124,
-        "stop" : 1634734428125,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "f030c5d630adca73",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686666403,
-        "stop" : 1634686666417,
-        "duration" : 14
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When the user enters \"Avengers\" in search page",
-      "uid" : "fdcf26606748ff43",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687500633,
-        "stop" : 1634687500643,
-        "duration" : 10
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "4d42316fab8953e1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734723565,
-        "stop" : 1634734723578,
-        "duration" : 13
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "45640ebd79903723",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687444958,
-        "stop" : 1634687444971,
-        "duration" : 13
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "9f6aa74e7921a6e0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634732611277,
-        "stop" : 1634732611287,
-        "duration" : 10
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When the user enters \"Avengers\" in search page",
-      "uid" : "db215bf7b7ce4089",
+      "name" : "When User Check and verify at the basket side pop up that the subtotal is \"$19.98\"",
+      "uid" : "fe0318b829b7d6e9",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "skipped",
       "time" : {
-        "start" : 1634690019553,
-        "stop" : 1634690019554,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "cf406e2cc52a51ab",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691981374,
-        "stop" : 1634691981384,
-        "duration" : 10
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "98566ff2c03230cb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690019502,
-        "stop" : 1634690019507,
-        "duration" : 5
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "b3e1b9fba8ce8762",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687402251,
-        "stop" : 1634687402277,
-        "duration" : 26
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "1389a69f5332ca51",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735346123,
-        "stop" : 1634735346131,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "6716c31e4a2759fa",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690200805,
-        "stop" : 1634690200809,
-        "duration" : 4
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "190755a349adcbe1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690327778,
-        "stop" : 1634690327780,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "e9612d2023c9b40e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691061558,
-        "stop" : 1634691061581,
-        "duration" : 23
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "311c536a4b6f5e9",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689572856,
-        "stop" : 1634689572857,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "a580384ba1e9a061",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735152786,
-        "stop" : 1634735152787,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "c2e232d985b70173",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734723579,
-        "stop" : 1634734723579,
+        "start" : 1635165249890,
+        "stop" : 1635165249890,
         "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
+      "parameters" : [ "chrome-95.0.4638.54" ]
     }, {
       "name" : "",
-      "uid" : "2b0866021b7d195",
+      "uid" : "13cf171a3dd8d1b7",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634734910316,
-        "stop" : 1634734910318,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "31225c02b42809f2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734687726,
-        "stop" : 1634734687735,
-        "duration" : 9
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "732206672c313e9d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691706809,
-        "stop" : 1634691706818,
-        "duration" : 9
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "5102f653892aca40",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686567959,
-        "stop" : 1634686567970,
-        "duration" : 11
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "814afdbf1f793b2d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734746815,
-        "stop" : 1634734746831,
-        "duration" : 16
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "b0877b7d372b5b2f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734746831,
-        "stop" : 1634734746832,
+        "start" : 1635165320641,
+        "stop" : 1635165320642,
         "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
+      "parameters" : [ "chrome-95.0.4638.54" ]
     }, {
       "name" : "When User clicks on search button",
-      "uid" : "869a1c094e05ecb9",
+      "uid" : "e5b26d47fe121ba0",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634690152510,
-        "stop" : 1634690152543,
-        "duration" : 33
+        "start" : 1635165228234,
+        "stop" : 1635165237235,
+        "duration" : 9001
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
+      "parameters" : [ "chrome-95.0.4638.54" ]
     }, {
-      "name" : "",
-      "uid" : "bc6869b39da4e5b9",
+      "name" : "When User filter by Age \"Kids\"",
+      "uid" : "deb046f987c8f98b",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
+      "status" : "skipped",
       "time" : {
-        "start" : 1634690200863,
-        "stop" : 1634690200865,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "fc74031b56cbe531",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691981372,
-        "stop" : 1634691981374,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "43b42b7450195d0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734960286,
-        "stop" : 1634734960287,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "877040633bed6f66",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690327748,
-        "stop" : 1634690327778,
-        "duration" : 30
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "And the user enters \"Avengers\" in search page",
-      "uid" : "de569daeb04955cf",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686666417,
-        "stop" : 1634686666427,
-        "duration" : 10
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "494dc95a05112b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688294238,
-        "stop" : 1634688294239,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "c090f73bd3160b4",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690200810,
-        "stop" : 1634690200830,
-        "duration" : 20
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "437d94a909f27079",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688145908,
-        "stop" : 1634688145921,
-        "duration" : 13
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "da65d410fee3c60d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734960254,
-        "stop" : 1634734960262,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "8902877b067cf32b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734910318,
-        "stop" : 1634734910327,
-        "duration" : 9
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "60bfeb936c8c0750",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691981384,
-        "stop" : 1634691981409,
-        "duration" : 25
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "dc7789a32f77ee3a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734910354,
-        "stop" : 1634734910355,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "a189e85fd2c814e2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688472244,
-        "stop" : 1634688472246,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "f4f1b72559f1666a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634728626681,
-        "stop" : 1634728626694,
-        "duration" : 13
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "d6e3ce9b53005473",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634732685209,
-        "stop" : 1634732685210,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "9bffece94231ea18",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688472220,
-        "stop" : 1634688472222,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "b6750c0dc8fc751b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691540238,
-        "stop" : 1634691540245,
-        "duration" : 7
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "6ee68778c3b6e44d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735313376,
-        "stop" : 1634735313399,
-        "duration" : 23
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "9a8fc48f255e2cff",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634732818432,
-        "stop" : 1634732818453,
-        "duration" : 21
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "32e42508d98529b2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686567988,
-        "stop" : 1634686567989,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "44202e289a6f37b3",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689612637,
-        "stop" : 1634689612654,
-        "duration" : 17
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "d7e9c87ada53d92a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734910327,
-        "stop" : 1634734910354,
-        "duration" : 27
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "475160efa7e024d6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686666390,
-        "stop" : 1634686666403,
-        "duration" : 13
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "a7c8413257b93f75",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735313399,
-        "stop" : 1634735313400,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "9bf4969496d3de34",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634732611308,
-        "stop" : 1634732611319,
-        "duration" : 11
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "1817bef1b93c12ff",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634732611287,
-        "stop" : 1634732611308,
-        "duration" : 21
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "b57fb98bf9e4d0b0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688472222,
-        "stop" : 1634688472235,
-        "duration" : 13
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "d1adaf614e99e055",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734687735,
-        "stop" : 1634734687742,
-        "duration" : 7
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "758de1e240c04e3f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686322375,
-        "stop" : 1634686322377,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "597f48a7cb9988c2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691061534,
-        "stop" : 1634691061535,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When the user enters \"Avengers\" in search page",
-      "uid" : "5c1b75aa3e30368e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689572848,
-        "stop" : 1634689572855,
-        "duration" : 7
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "647a5316d6b67d7d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687444946,
-        "stop" : 1634687444958,
-        "duration" : 12
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "b597aac5b4eaa41d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735227580,
-        "stop" : 1634735227588,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "ef40102a9ac0170a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734372659,
-        "stop" : 1634734372670,
-        "duration" : 11
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "4ad21596bb36a76e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734687725,
-        "stop" : 1634734687726,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "4c2bd42c6636fdda",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690060559,
-        "stop" : 1634690060561,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When the user enters \"Avengers\" in search page",
-      "uid" : "b055373f00875c5c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689115672,
-        "stop" : 1634689115680,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "d5fe53801c4150e1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688145922,
-        "stop" : 1634688145932,
-        "duration" : 10
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "82c5fbe5b6ade113",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734687742,
-        "stop" : 1634734687742,
+        "start" : 1635165249889,
+        "stop" : 1635165249889,
         "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
+      "parameters" : [ "chrome-95.0.4638.54" ]
     }, {
-      "name" : "",
-      "uid" : "1aceb9559cff333c",
+      "name" : "When User Add 2 Marvel Logo Pins",
+      "uid" : "161c4d9ce5b8fcc5",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634691540237,
-        "stop" : 1634691540238,
+        "start" : 1635165314370,
+        "stop" : 1635165318391,
+        "duration" : 4021
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    }, {
+      "name" : "And User Check and verify number of results \"20\"",
+      "uid" : "dc51b832981f8fb8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165237877,
+        "stop" : 1635165240162,
+        "duration" : 2285
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    }, {
+      "name" : "And User Check and verify number of pages \"154\"",
+      "uid" : "72e91948c044bd32",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165240162,
+        "stop" : 1635165240707,
+        "duration" : 545
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    }, {
+      "name" : "",
+      "uid" : "cc61dba4d6419fbe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165296456,
+        "stop" : 1635165296457,
         "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
+      "parameters" : [ "chrome-95.0.4638.54" ]
     }, {
-      "name" : "",
-      "uid" : "9c725d598159c4da",
+      "name" : "Given the user is on \"https://www.marvel.com/\" page",
+      "uid" : "d9ad236e3838a926",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634728626694,
-        "stop" : 1634728626695,
+        "start" : 1635165205869,
+        "stop" : 1635165228234,
+        "duration" : 22365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    }, {
+      "name" : "Given the user is on \"https://www.marvel.com/\" page",
+      "uid" : "aaaafb944fc49f38",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165265985,
+        "stop" : 1635165283030,
+        "duration" : 17045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    }, {
+      "name" : "And User Check and verify number of results \"20\"",
+      "uid" : "c8db6e28cc7f3b11",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165293672,
+        "stop" : 1635165295903,
+        "duration" : 2231
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    }, {
+      "name" : "When User Search for \"AVENGERS\" in the COMICS section",
+      "uid" : "a3e5458af40eb231",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165237235,
+        "stop" : 1635165237877,
+        "duration" : 642
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    }, {
+      "name" : "",
+      "uid" : "b8d5772256b1ec8f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165240707,
+        "stop" : 1635165240707,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    }, {
+      "name" : "Given the user is on \"https://www.marvel.com/\" page",
+      "uid" : "92a66779e65df8cf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165296493,
+        "stop" : 1635165304053,
+        "duration" : 7560
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    }, {
+      "name" : "When User Add 2 Marvel Logo Pins",
+      "uid" : "a2c30bd402c91f1e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1635165249890,
+        "stop" : 1635165249890,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    }, {
+      "name" : "When User Sort by price low to high",
+      "uid" : "52fdcdd5c4837c83",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165313076,
+        "stop" : 1635165314370,
+        "duration" : 1294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    }, {
+      "name" : "",
+      "uid" : "a16e001f641e368",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165249890,
+        "stop" : 1635165249891,
         "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
+      "parameters" : [ "chrome-95.0.4638.54" ]
     }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "4b5296735e3e0774",
+      "name" : "When User Sort by price low to high",
+      "uid" : "960361ad0e25a004",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
+      "status" : "skipped",
       "time" : {
-        "start" : 1634691706840,
-        "stop" : 1634691706852,
-        "duration" : 12
+        "start" : 1635165249890,
+        "stop" : 1635165249890,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    }, {
+      "name" : "When User Search for \"AVENGERS\" in the COMICS section",
+      "uid" : "ebc2cab3b8ac5cc4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165293022,
+        "stop" : 1635165293671,
+        "duration" : 649
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
     }, {
       "name" : "",
-      "uid" : "ac1c83d4333f63c0",
+      "uid" : "cb1bbe9b32512e7f",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634728626650,
-        "stop" : 1634728626651,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "b8a682fbef8b314b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735227579,
-        "stop" : 1634735227580,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "4adca7ac917ced81",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634732818453,
-        "stop" : 1634732818454,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "2d14d95c2a4c50db",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634732818422,
-        "stop" : 1634732818432,
-        "duration" : 10
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "afba4ee42a8a2d8b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734372632,
-        "stop" : 1634734372634,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "d34c90228b2d9d35",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688145905,
-        "stop" : 1634688145908,
+        "start" : 1635165265982,
+        "stop" : 1635165265985,
         "duration" : 3
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "7776e8d9d43fe767",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691540285,
-        "stop" : 1634691540286,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "a2fa5dce516eb64f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687500604,
-        "stop" : 1634687500619,
-        "duration" : 15
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "b910e3d72d56a7bd",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690019507,
-        "stop" : 1634690019529,
-        "duration" : 22
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "b513c20f15777f4d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734372670,
-        "stop" : 1634734372670,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "6c8f15d6a15c76e6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634732685210,
-        "stop" : 1634732685217,
-        "duration" : 7
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "934718c1463000fb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689670647,
-        "stop" : 1634689670661,
-        "duration" : 14
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "f337d9e5dcd767bf",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735346122,
-        "stop" : 1634735346123,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "619863c779f74a88",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734606739,
-        "stop" : 1634734606740,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "3ebacb32bf2c6c57",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735102681,
-        "stop" : 1634735102703,
-        "duration" : 22
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "67aba970478464cb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735152787,
-        "stop" : 1634735152795,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
+      "parameters" : [ "chrome-95.0.4638.54" ]
     }, {
       "name" : "When User clicks on search button",
-      "uid" : "24dcd9581915435e",
+      "uid" : "13f9cd4a95f88dfc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165283030,
+        "stop" : 1635165293022,
+        "duration" : 9992
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    }, {
+      "name" : "Given the user is on \"https://www.marvel.com/\" page",
+      "uid" : "9afdc13df83aa161",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165240735,
+        "stop" : 1635165247970,
+        "duration" : 7235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    }, {
+      "name" : "When User select the Complete Your Collection option",
+      "uid" : "fdab11279d2ab646",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1634690019529,
-        "stop" : 1634690019553,
-        "duration" : 24
+        "start" : 1635165247970,
+        "stop" : 1635165249888,
+        "duration" : 1918
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
+      "parameters" : [ "chrome-95.0.4638.54" ]
     }, {
-      "name" : "",
-      "uid" : "923acd82b1d3d090",
+      "name" : "And User Check and verify number of pages \"154\"",
+      "uid" : "e1a258f6a86527be",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634687500602,
-        "stop" : 1634687500604,
+        "start" : 1635165295903,
+        "stop" : 1635165296456,
+        "duration" : 553
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    }, {
+      "name" : "",
+      "uid" : "a61a19ed69e56206",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635165205867,
+        "stop" : 1635165205869,
         "duration" : 2
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
+      "parameters" : [ "chrome-95.0.4638.54" ]
     }, {
-      "name" : "",
-      "uid" : "8ef5f1eb8e321318",
+      "name" : "When User select the Complete Your Collection option",
+      "uid" : "746716e72dcd0712",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634734428094,
-        "stop" : 1634734428096,
-        "duration" : 2
+        "start" : 1635165304053,
+        "stop" : 1635165311823,
+        "duration" : 7770
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
+      "parameters" : [ "chrome-95.0.4638.54" ]
     }, {
       "name" : "",
-      "uid" : "84c768eee89d8dde",
+      "uid" : "c876d01396fa86e6",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634689115650,
-        "stop" : 1634689115652,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "fad97cbc313a4ba5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690327725,
-        "stop" : 1634690327729,
-        "duration" : 4
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "22fcfc0671b65322",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688058594,
-        "stop" : 1634688058595,
+        "start" : 1635165240733,
+        "stop" : 1635165240734,
         "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
+      "parameters" : [ "chrome-95.0.4638.54" ]
     }, {
       "name" : "",
-      "uid" : "eacaa2b822831801",
+      "uid" : "dff72681948ce92f",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634734606720,
-        "stop" : 1634734606721,
+        "start" : 1635165296492,
+        "stop" : 1635165296493,
         "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
+      "parameters" : [ "chrome-95.0.4638.54" ]
     }, {
-      "name" : "Given the user is on login page",
-      "uid" : "e703a615aeae82de",
+      "name" : "When User filter by Age \"Kids\"",
+      "uid" : "956bb02ea524d592",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634690152491,
-        "stop" : 1634690152510,
-        "duration" : 19
+        "start" : 1635165311823,
+        "stop" : 1635165313076,
+        "duration" : 1253
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "1e5693e9ae0ec27e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689572822,
-        "stop" : 1634689572825,
-        "duration" : 3
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "399da2db6695f25f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691706852,
-        "stop" : 1634691706853,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "98818dd51182ce0a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734723558,
-        "stop" : 1634734723565,
-        "duration" : 7
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "fe498d47f50bf020",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734428096,
-        "stop" : 1634734428103,
-        "duration" : 7
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "466fb10607cb69e9",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734428104,
-        "stop" : 1634734428119,
-        "duration" : 15
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "70642d341f089a2b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687402306,
-        "stop" : 1634687402306,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "72f0e249938d2320",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691706818,
-        "stop" : 1634691706840,
-        "duration" : 22
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "8de107412848c565",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688145949,
-        "stop" : 1634688145950,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "7a13f45d46ee52d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690152544,
-        "stop" : 1634690152546,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "a531d31d3c836f6d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689612620,
-        "stop" : 1634689612623,
-        "duration" : 3
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "2bf5947d5faa80bf",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688294229,
-        "stop" : 1634688294238,
-        "duration" : 9
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "c8b47c864e70919e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689572839,
-        "stop" : 1634689572848,
-        "duration" : 9
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "3cbd53e893e83255",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634691061535,
-        "stop" : 1634691061543,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "1ded89b51db4197d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634690327730,
-        "stop" : 1634690327748,
-        "duration" : 18
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "2cf7b637551b9b6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686322411,
-        "stop" : 1634686322412,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "2ab415314c8361d6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689670680,
-        "stop" : 1634689670680,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "9665267fe01890e1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687328309,
-        "stop" : 1634687328311,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "ee8240363322ec51",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634728626652,
-        "stop" : 1634728626660,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "44e57b74f013c124",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686737942,
-        "stop" : 1634686737943,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "afe67ba641a05fa3",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686567970,
-        "stop" : 1634686567978,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "5164b367274c22b7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734723557,
-        "stop" : 1634734723558,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "9e46d0da2b853052",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688472235,
-        "stop" : 1634688472244,
-        "duration" : 9
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "a1aa0066f38a5ced",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634734960262,
-        "stop" : 1634734960286,
-        "duration" : 24
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "8088dcc9aa4d0360",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634689670644,
-        "stop" : 1634689670647,
-        "duration" : 3
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "54f54a42ba96c78d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686737906,
-        "stop" : 1634686737918,
-        "duration" : 12
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "60b7fc43ce5d58fa",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634687444944,
-        "stop" : 1634687444946,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User clicks on search button",
-      "uid" : "a129dbce284444d3",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634732685217,
-        "stop" : 1634732685235,
-        "duration" : 18
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "e6ec838ba0ab1cb8",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688294214,
-        "stop" : 1634688294228,
-        "duration" : 14
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "When User Search for \"Avengers\" in the COMICS section",
-      "uid" : "cd8ab7f6ca8435b4",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634735346131,
-        "stop" : 1634735346149,
-        "duration" : 18
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Given the user is on login page",
-      "uid" : "7b6b54f6c008dc2a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634688058596,
-        "stop" : 1634688058607,
-        "duration" : 11
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "",
-      "uid" : "7e712c9464cd2e2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634686666427,
-        "stop" : 1634686666428,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
+      "parameters" : [ "chrome-95.0.4638.54" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
   } ]

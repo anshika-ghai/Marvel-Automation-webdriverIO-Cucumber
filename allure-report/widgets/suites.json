@@ -1,8 +1,19 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
-    "uid" : "41b6679ff0bfb0bc25b06e07c3065063",
-    "name" : "To test the functionality in \"The Marvel App\": The one where user logs in using valid credentials",
+    "uid" : "e4c68e32a73237989fc9eaf252d74992",
+    "name" : "To test the functionality in \"The Marvel App\": Navigate to the Shop Section(See Pic 2)",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "2ad8577f7dd7a7a964a7967afda9b393",
+    "name" : "To test the functionality in \"The Marvel App\": Navigates to the Search Page",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

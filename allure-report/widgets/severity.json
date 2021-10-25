@@ -1,60 +1,130 @@
 [ {
-  "uid" : "e2a86d967e65f53",
-  "name" : "Given the user is on login page",
+  "uid" : "aaaafb944fc49f38",
+  "name" : "Given the user is on \"https://www.marvel.com/\" page",
   "time" : {
-    "start" : 1634735424890,
-    "stop" : 1634735424897,
-    "duration" : 7
+    "start" : 1635165265985,
+    "stop" : 1635165283030,
+    "duration" : 17045
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "73d190fa4a1bdf47",
-  "name" : "When the user enters \"Avengers\" in search page",
+  "uid" : "e1a258f6a86527be",
+  "name" : "And User Check and verify number of pages \"154\"",
   "time" : {
-    "start" : 1634690060548,
-    "stop" : 1634690060559,
-    "duration" : 11
+    "start" : 1635165295903,
+    "stop" : 1635165296456,
+    "duration" : 553
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "de569daeb04955cf",
-  "name" : "And the user enters \"Avengers\" in search page",
+  "uid" : "ebc2cab3b8ac5cc4",
+  "name" : "When User Search for \"AVENGERS\" in the COMICS section",
   "time" : {
-    "start" : 1634686666417,
-    "stop" : 1634686666427,
-    "duration" : 10
+    "start" : 1635165293022,
+    "stop" : 1635165293671,
+    "duration" : 649
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9fd58473efe7cdde",
-  "name" : "When User Search for \"Avengers\" in the COMICS section",
+  "uid" : "52fdcdd5c4837c83",
+  "name" : "When User Sort by price low to high",
   "time" : {
-    "start" : 1634735424897,
-    "stop" : 1634735424917,
-    "duration" : 20
+    "start" : 1635165313076,
+    "stop" : 1635165314370,
+    "duration" : 1294
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6b6f8f7189b2aafd",
+  "uid" : "746716e72dcd0712",
+  "name" : "When User select the Complete Your Collection option",
+  "time" : {
+    "start" : 1635165304053,
+    "stop" : 1635165311823,
+    "duration" : 7770
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "992ae228c8c8b185",
+  "name" : "When User Check and verify at the basket side pop up that the subtotal is \"$19.98\"",
+  "time" : {
+    "start" : 1635165318391,
+    "stop" : 1635165320641,
+    "duration" : 2250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13cf171a3dd8d1b7",
   "name" : "",
   "time" : {
-    "start" : 1634735424917,
-    "stop" : 1634735424917,
-    "duration" : 0
+    "start" : 1635165320641,
+    "stop" : 1635165320642,
+    "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "466fb10607cb69e9",
+  "uid" : "c8db6e28cc7f3b11",
+  "name" : "And User Check and verify number of results \"20\"",
+  "time" : {
+    "start" : 1635165293672,
+    "stop" : 1635165295903,
+    "duration" : 2231
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "161c4d9ce5b8fcc5",
+  "name" : "When User Add 2 Marvel Logo Pins",
+  "time" : {
+    "start" : 1635165314370,
+    "stop" : 1635165318391,
+    "duration" : 4021
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "956bb02ea524d592",
+  "name" : "When User filter by Age \"Kids\"",
+  "time" : {
+    "start" : 1635165311823,
+    "stop" : 1635165313076,
+    "duration" : 1253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92a66779e65df8cf",
+  "name" : "Given the user is on \"https://www.marvel.com/\" page",
+  "time" : {
+    "start" : 1635165296493,
+    "stop" : 1635165304053,
+    "duration" : 7560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc61dba4d6419fbe",
+  "name" : "",
+  "time" : {
+    "start" : 1635165296456,
+    "stop" : 1635165296457,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13f9cd4a95f88dfc",
   "name" : "When User clicks on search button",
   "time" : {
-    "start" : 1634734428104,
-    "stop" : 1634734428119,
-    "duration" : 15
+    "start" : 1635165283030,
+    "stop" : 1635165293022,
+    "duration" : 9992
   },
   "status" : "passed",
   "severity" : "normal"

@@ -2,82 +2,173 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "And the user enters \"Avengers\" in search page",
-    "uid" : "de569daeb04955cf",
+    "name" : "Given the user is on \"https://www.marvel.com/\" page",
+    "uid" : "aaaafb944fc49f38",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1634686666417,
-      "stop" : 1634686666427,
-      "duration" : 10
+      "start" : 1635165265985,
+      "stop" : 1635165283030,
+      "duration" : 17045
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "chrome-94.0.4606.81" ]
-  }, {
-    "name" : "When the user enters \"Avengers\" in search page",
-    "uid" : "73d190fa4a1bdf47",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1634690060548,
-      "stop" : 1634690060559,
-      "duration" : 11
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome-94.0.4606.81" ]
+    "parameters" : [ "chrome-95.0.4638.54" ]
   }, {
     "name" : "When User clicks on search button",
-    "uid" : "466fb10607cb69e9",
+    "uid" : "13f9cd4a95f88dfc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1634734428104,
-      "stop" : 1634734428119,
-      "duration" : 15
+      "start" : 1635165283030,
+      "stop" : 1635165293022,
+      "duration" : 9992
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "chrome-94.0.4606.81" ]
+    "parameters" : [ "chrome-95.0.4638.54" ]
   }, {
-    "name" : "Given the user is on login page",
-    "uid" : "e2a86d967e65f53",
+    "name" : "When User Search for \"AVENGERS\" in the COMICS section",
+    "uid" : "ebc2cab3b8ac5cc4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1634735424890,
-      "stop" : 1634735424897,
-      "duration" : 7
+      "start" : 1635165293022,
+      "stop" : 1635165293671,
+      "duration" : 649
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "chrome-94.0.4606.81" ]
+    "parameters" : [ "chrome-95.0.4638.54" ]
   }, {
-    "name" : "When User Search for \"Avengers\" in the COMICS section",
-    "uid" : "9fd58473efe7cdde",
+    "name" : "And User Check and verify number of results \"20\"",
+    "uid" : "c8db6e28cc7f3b11",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1634735424897,
-      "stop" : 1634735424917,
-      "duration" : 20
+      "start" : 1635165293672,
+      "stop" : 1635165295903,
+      "duration" : 2231
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "chrome-94.0.4606.81" ]
+    "parameters" : [ "chrome-95.0.4638.54" ]
+  }, {
+    "name" : "And User Check and verify number of pages \"154\"",
+    "uid" : "e1a258f6a86527be",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635165295903,
+      "stop" : 1635165296456,
+      "duration" : 553
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-95.0.4638.54" ]
   }, {
     "name" : "",
-    "uid" : "6b6f8f7189b2aafd",
+    "uid" : "cc61dba4d6419fbe",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1634735424917,
-      "stop" : 1634735424917,
-      "duration" : 0
+      "start" : 1635165296456,
+      "stop" : 1635165296457,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "chrome-94.0.4606.81" ]
+    "parameters" : [ "chrome-95.0.4638.54" ]
+  }, {
+    "name" : "Given the user is on \"https://www.marvel.com/\" page",
+    "uid" : "92a66779e65df8cf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635165296493,
+      "stop" : 1635165304053,
+      "duration" : 7560
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-95.0.4638.54" ]
+  }, {
+    "name" : "When User select the Complete Your Collection option",
+    "uid" : "746716e72dcd0712",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635165304053,
+      "stop" : 1635165311823,
+      "duration" : 7770
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-95.0.4638.54" ]
+  }, {
+    "name" : "When User filter by Age \"Kids\"",
+    "uid" : "956bb02ea524d592",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635165311823,
+      "stop" : 1635165313076,
+      "duration" : 1253
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-95.0.4638.54" ]
+  }, {
+    "name" : "When User Sort by price low to high",
+    "uid" : "52fdcdd5c4837c83",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635165313076,
+      "stop" : 1635165314370,
+      "duration" : 1294
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-95.0.4638.54" ]
+  }, {
+    "name" : "When User Add 2 Marvel Logo Pins",
+    "uid" : "161c4d9ce5b8fcc5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635165314370,
+      "stop" : 1635165318391,
+      "duration" : 4021
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-95.0.4638.54" ]
+  }, {
+    "name" : "When User Check and verify at the basket side pop up that the subtotal is \"$19.98\"",
+    "uid" : "992ae228c8c8b185",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635165318391,
+      "stop" : 1635165320641,
+      "duration" : 2250
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-95.0.4638.54" ]
+  }, {
+    "name" : "",
+    "uid" : "13cf171a3dd8d1b7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635165320641,
+      "stop" : 1635165320642,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-95.0.4638.54" ]
   } ]
 }
