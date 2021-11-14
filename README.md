@@ -1,7 +1,7 @@
 Anshika Ghai
 
 Coding Challenge - Marvel API - v1
-# yapily
+# UI Automation Webdriver IO BDD
 **Getting Started**
 
 Pre-Requirement:
